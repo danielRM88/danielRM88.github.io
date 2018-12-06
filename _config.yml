@@ -108,14 +108,14 @@ author:
   bio              : "Systems Engineer."
   location         : "Italy"
   email            : "rosato.daniel@gmail.com"
-  linkedin         : "https://www.linkedin.com/in/drosatom/"
+  linkedin         : "drosatom"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:rosato.daniel@gmail.com
+      # url: mailto:rosato.daniel@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://danielrm88.github.io/"
+      # url: "https://danielrm88.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
