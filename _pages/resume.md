@@ -5,8 +5,8 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-<object data="/docs/the.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="/docs/the.pdf">
+<object data="/docs/cv.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/docs/cv.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
     </embed>
 </object>
