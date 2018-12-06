@@ -2,7 +2,7 @@
 title: "Resume"
 permalink: /resume/
 header:
-  image: "/images/zakim.jpg"
+  image: "/images/resume.jpg"
 ---
 
 <object data="/images/cv.pdf" type="application/pdf" width="700px" height="700px">
