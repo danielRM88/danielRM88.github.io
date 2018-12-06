@@ -1,8 +1,6 @@
 ---
 title: "About"
 permalink: /about/
-<!-- header: -->
-  <!-- image: "/images/about.jpg" -->
 ---
 
 Systems Engineer with an M.Sc in Computer Science and Engineering from Politecnico di Milano. 
