@@ -68,7 +68,7 @@ For this objective, a Kalman Filter is implemented. Its purpose is to filter out
 
 The Kalman filter is an algorithm that uses the state-space approach to filtering
 
-<figure>
+<figure class="third">
   <img src="/images/state-space.png">
 </figure>
 
@@ -78,7 +78,7 @@ It is important to keep in mind that the filter operates with the assumptions th
 
 After applying complex math derivations, the filter equation to calculate the state estimation of the system at time t looks as follows:
 
-<figure>
+<figure class="third">
   <img src="/images/filter-eq.png">
 </figure>
 
