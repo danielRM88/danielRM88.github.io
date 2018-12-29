@@ -30,9 +30,8 @@ This is just a brief summary of the capabilities of the micro controller. The im
 
 The development boards have USB ports that can be used to power the micro controller. Each of the components used are powered with power banks using this port. They are attached to the chair using simple double sided tape. For the initial setup both beacons are placed one in front of the other underneath the chair. As shown in the following figures:
 
-<figure class="third">
+<figure class="half">
   <img src="/images/chair1.png">
-  <img src="/images/client_chair1.png">
   <img src="/images/chair1_1_beacon.png">
   <figcaption>Initial setup</figcaption>
 </figure>
