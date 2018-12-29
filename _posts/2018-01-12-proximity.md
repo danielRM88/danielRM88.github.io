@@ -1,7 +1,7 @@
 ---
 title: "Proximity Detection using Bluetooth Low Energy Technology to Identify Seated People"
 date: 2018-01-12
-tags: [bluetooth low energy, machine learning, kalman filter, sensor fusion, web application, postgresql, service oriented architecture]
+tags: [bluetooth low energy, machine learning, online k-means clustering, kalman filter, sensor fusion, web application, postgresql, service oriented architecture]
 excerpt: "Non-invasive monitoring system to recognize if a person is seated in a chair using Bluetooth Low Energy (BLE) technology."
 ---
 
