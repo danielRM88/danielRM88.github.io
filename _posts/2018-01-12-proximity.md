@@ -22,6 +22,7 @@ It is composed of 4 different github repositories:
     - [Learning the behaviour](#learning-the-behaviour)
     - [Complete system](#complete-system)
 - [Description of application](#description-of-application)
+    - [Video of the application working](#video-of-the-application-working)
 
 ## Introduction
 The focus of this work is to present a non intrusive solution for proximity detection of a human being, more specifically, applied to the case of identifying if a person is seated in a chair using **Bluetooth Low Energy** technology.
@@ -253,4 +254,7 @@ As mentioned before, the system is flexible enough to allow for a chair to not h
 
 **For a more detailed description of the workflow of the system, all the sequence diagrams for each use case can be found in this [document](/images/thesis.pdf).**
 
+### Video of the application working
+
+[Video of application working](https://drive.google.com/file/d/1RquFUS-uHjrSQ0-S-1S3rDpsoxnxkULQ/view?usp=sharing)
 
