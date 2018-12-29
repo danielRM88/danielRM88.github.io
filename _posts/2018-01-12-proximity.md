@@ -256,5 +256,5 @@ As mentioned before, the system is flexible enough to allow for a chair to not h
 
 ### Video of the application working
 
-[Video of application working](https://drive.google.com/file/d/1RquFUS-uHjrSQ0-S-1S3rDpsoxnxkULQ/view?usp=sharing)
+The video can be found [here](https://drive.google.com/file/d/1RquFUS-uHjrSQ0-S-1S3rDpsoxnxkULQ/view?usp=sharing).
 
