@@ -5,15 +5,6 @@ tags: [bluetooth low energy, machine learning, kalman filter, sensor fusion, web
 excerpt: "Non-invasive monitoring system to recognize if a person is seated in a chair using Bluetooth Low Energy (BLE) technology."
 ---
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Architecture](#architecture)
-    - [The signal](#the-signal)
-    - [Managing the noise](#managing-the-noise)
-    - [Learning the behaviour](#learning-the-behaviour)
-    - [Complete system](#complete-system)
-- [Description of application](#description-of-application)
-
 I presented this project as my master's degree thesis. This page represents an overview, the details of the complete work can be found [here](/images/thesis.pdf).
 
 It is composed of 4 different github repositories:
@@ -22,6 +13,15 @@ It is composed of 4 different github repositories:
 2. [BLE server/beacon](https://github.com/danielRM88/ble-server)
 3. [Rails API](https://github.com/danielRM88/proximity-api)
 4. [Reactjs frontend](https://github.com/danielRM88/proximity-frontend)
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Architecture](#architecture)
+    - [The signal](#the-signal)
+    - [Managing the noise](#managing-the-noise)
+    - [Learning the behaviour](#learning-the-behaviour)
+    - [Complete system](#complete-system)
+- [Description of application](#description-of-application)
 
 ## Introduction
 The focus of this work is to present a non intrusive solution for proximity detection of a human being, more specifically, applied to the case of identifying if a person is seated in a chair using **Bluetooth Low Energy** technology.
