@@ -1,7 +1,7 @@
 ---
 title: "Proximity Detection using Bluetooth Low Energy Technology to Identify Seated People"
 date: 2018-01-12
-tags: [bluetooth low energy, machine learning, kalman filter, sensor fusion, web application]
+tags: [bluetooth low energy, machine learning, kalman filter, sensor fusion, web application, postgresql, service oriented architecture]
 excerpt: "Non-invasive monitoring system to recognize if a person is seated in a chair using Bluetooth Low Energy (BLE) technology."
 ---
 
@@ -13,6 +13,15 @@ excerpt: "Non-invasive monitoring system to recognize if a person is seated in a
     - [Learning the behaviour](#learning-the-behaviour)
     - [Complete system](#complete-system)
 - [Description of application](#description-of-application)
+
+I presented this project as my master's degree thesis. This page represents an overview, the details of the complete work can be found [here](/images/thesis.pdf).
+
+It is composed of 4 different github repositories:
+
+1. [BLE client](https://github.com/danielRM88/ble-client)
+2. [BLE server/beacon](https://github.com/danielRM88/ble-server)
+3. [Rails API](https://github.com/danielRM88/proximity-api)
+4. [Reactjs frontend](https://github.com/danielRM88/proximity-frontend)
 
 ## Introduction
 The focus of this work is to present a non intrusive solution for proximity detection of a human being, more specifically, applied to the case of identifying if a person is seated in a chair using **Bluetooth Low Energy** technology.
@@ -132,6 +141,8 @@ For the web server and API, **Ruby and Ruby on Rails** were chosen for the langu
 
 For the web interface that will display the information stored in the server, **React.js** is chosen. An important feature of React.js is that it is based on components, each component has its own logic and controls its rendering, and the fact that they can be combined into bigger components makes the code highly reusable. The virtual DOM is another of React.js main features, this is because DOM manipulation is one of the biggest performance bottlenecks in front end applications. React tackles this with a virtual DOM which is basically, a copy of the real DOM that lives in memory. React performs any changes really fast in the virtual DOM and then uses a highly efficient algorithm to determine which changes should be applied to the real DOM providing higher performance and a better user experience.
 
+The architecture of the front end application is heavily based in the one displayed in this great [post](https://medium.com/@rajaraodv/a-guide-for-building-a-react-redux-crud-app-7fe0b8943d0f).
+
 The use case for the system can be observed in Figure 4.
 
 <figure>
@@ -246,8 +257,6 @@ As mentioned before, the system is flexible enough to allow for a chair to not h
   <figcaption>Figure 19: panel page for chair without a filter</figcaption>
 </figure>
 
-**For a more detailed description of the workflow of the system, all the sequence diagrams for each use case can be found in [document](/images/thesis.pdf)**
-
-### Front end application
+**For a more detailed description of the workflow of the system, all the sequence diagrams for each use case can be found in this [document](/images/thesis.pdf).**
 
 
