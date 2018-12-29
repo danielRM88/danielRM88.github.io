@@ -5,6 +5,15 @@ tags: [bluetooth low energy, machine learning, kalman filter, sensor fusion, web
 excerpt: "Non-invasive monitoring system to recognize if a person is seated in a chair using Bluetooth Low Energy (BLE) technology."
 ---
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Architecture](#architecture)
+    - [The signal](#the-signal)
+    - [Managing the noise](#managing-the-noise)
+    - [Learning the behaviour](#learning-the-behaviour)
+    - [Complete system](#complete-system)
+- [Description of application](#description-of-application)
+
 ## Introduction
 The focus of this work is to present a non intrusive solution for proximity detection of a human being, more specifically, applied to the case of identifying if a person is seated in a chair using **Bluetooth Low Energy** technology.
 
@@ -42,7 +51,7 @@ The RSSI can be measured with the Friis transmission equation:
 
 In this setup, the beacon sends periodically to the client the RSSI between them, calculated with the Friis transmission equation. The client in turn sends the measurement to a web server via an HTTP request.
 
-### The Signal
+### The signal
 It is important to note that once the components are set in place, their position does not change. This means that the signal should remain constant as long as there is no noise and no one is seated on the chair.
 
 <figure>
@@ -87,7 +96,7 @@ For this project an unsupervised learning algorithm known as k-means clustering 
 
 This recursive version is known as "Online K-means" and its implementation can be seen in this [post](https://www.researchgate.net/publication/281295652_Lecture_Notes_on_Data_Science_Online_k-Means_Clustering).
 
-### Service oriented architecture
+### Complete system
 A web application programming interface (API) will receive the measurements sent from the BLE client. Every measurement will be stored in a database.
 
 Data visualization has become very important in today's world. This is the reason a web interface is developed to manage and monitor the system and its performance.
@@ -110,6 +119,7 @@ Putting together all the pieces previously described, the final architecture as 
 
 The client, after getting the measurement from the beacon(s), sends it to the Web API, where it is processed by a Kalman filter to reduce the noise as much as possible and merge all the measurements together. The output of the filter is then fed to the machine learning algorithm so that it learns the behaviour of the signal and perform the predictions about whether someone is seated or not. This is all displayed by the web interface.
 
+## Description of application
 In order for the project to be scalable and flexible enough to be feasible and practical, a multilayer service oriented architecture was needed to provide the proper support structure for the complete process.
 
 The less computation the micro controllers do, the easier it is to replace them. The hardware solution for this project was developed with the only purpose of analyzing the feasibility of using BLE technology for proximity detection, it is by no means a market ready solution, therefore the system was developed in a way so that the hardware side, i.e. the BLE client and BLE server, could be easily replaced. This is the reason why a web server that stores all the measurements and performs all the computations is created.
@@ -236,5 +246,8 @@ As mentioned before, the system is flexible enough to allow for a chair to not h
   <figcaption>Figure 19: panel page for chair without a filter</figcaption>
 </figure>
 
+**For a more detailed description of the workflow of the system, all the sequence diagrams for each use case can be found in [document](/images/thesis.pdf)**
+
+### Front end application
 
 
