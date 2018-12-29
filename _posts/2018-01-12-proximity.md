@@ -84,6 +84,6 @@ After applying complex math derivations, the filter equation to calculate the st
 
 Where K<sub>0</sub> is the Kalman gain and e(t) is the innovation carried by the observation at time t.
 
-**This is a brief overview of the algorithm, its variables and the math involved in deriving them. For more details please feel free to check the complete [thesis](/docs/thesis.pdf) (there is a whole chapter dedicated to this).**
+**This is a brief overview of the algorithm, its variables and the math involved in deriving them. For more details please feel free to check the complete [thesis](/images/thesis.pdf) (there is a whole chapter dedicated to this).**
 
 
