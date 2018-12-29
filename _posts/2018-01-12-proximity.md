@@ -86,13 +86,7 @@ For this objective, a Kalman Filter is implemented. Its purpose is to filter out
 
 **NOTE: for a very complete and accessible explanation about filters and the Kalman filter in general please refer to this great [repo](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python).**
 
-The Kalman filter is an algorithm that uses the state-space approach to filtering
-
-<figure class="third">
-  <img src="/images/state-space.png">
-</figure>
-
-It takes a series of measurements observed over time to produce estimates of unknown variables. It combines the limited knowledge available on how a system behaves with the noisy observations taken by the sensors to produce the best possible estimate of the state of the system. It was developed by Rudolf Emil Kálmán, and it is used in a wide variety of fields. This is due to the fact that it is computationally light and very fast, which makes it a very powerful tool.
+The Kalman filter is an algorithm that uses the state-space approach to filtering. It takes a series of measurements observed over time to produce estimates of unknown variables. It combines the limited knowledge available on how a system behaves with the noisy observations taken by the sensors to produce the best possible estimate of the state of the system. It was developed by Rudolf Emil Kálmán, and it is used in a wide variety of fields. This is due to the fact that it is computationally light and very fast, which makes it a very powerful tool.
 
 As the project moves forward, more beacons will be added to the chair in order to try to get a clearer picture of the signal. A very important feature of the filter is that it allows to merge the different measurements from the different beacons into one single state estimation with better accuracy. This is known as sensor fusion.
 
