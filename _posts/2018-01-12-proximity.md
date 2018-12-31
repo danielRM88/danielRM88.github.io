@@ -222,7 +222,7 @@ After calibration is complete, the system is ready to start making predictions, 
   <figcaption>Figure 15: panel page for chair</figcaption>
 </figure>
 
-In this page Figure 15, all the information regarding the chair can be found. Whether someone is seated or not is displayed in the square at the top left corner of the screen (red for no one seated, green otherwise (Figure 16)). The first plot shows the signals coming from all the beacons assigned to the chair. The plot below it, shows the estate estimation of the filter based on the measurements obtained from both beacons. The last one shows the variance of the estate estimation error, which can be seen as how much confidence there is the estate estimation.
+In this page Figure 15, all the information regarding the chair can be found. Whether someone is seated or not is displayed in the square at the top left corner of the screen (red for no one seated, green otherwise (Figure 16)). The first plot shows the signals coming from all the beacons assigned to the chair. The plot below it, shows the estate estimation of the filter based on the measurements obtained from both beacons. The last one shows the variance of the estate estimation error, which can be seen as how much uncertainty there is the estate estimation, i.e. the lower it is, the more confidence we have in the estimation of the filter.
 
 Below the square that shows whether there is someone seated or not in Figure 15, the graph for the online K-means algorithm can be found. The squares represent the position of the centroids of each cluster and the circle represents the last measurement obtained.
 
