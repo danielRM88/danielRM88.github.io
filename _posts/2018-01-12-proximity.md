@@ -41,7 +41,7 @@ Finally a machine learning algorithm is used to analyze and learn the behavior o
 The main contribution of this work is to demonstrate that Bluetooth Low Energy technology can be used as a proximity detection solution to identify seated people.
 
 ## Architecture
-For the roles of beacon and client, the NodeMCU esp32 development board was chosen. The esp32 are small, low cost, low power and very versatile micro controllers. As stated on the offitial website \cite{esp32}:
+For the roles of beacon and client, the NodeMCU esp32 development board was chosen. The esp32 are small, low cost, low power and very versatile micro controllers. As stated on the offitial [website](https://www.espressif.com/en/products/hardware/esp-wroom-32/overview):
 
 The esp32 has a hybrid Wi-Fi and Bluetooth Chip, meaning it can perform as a complete standalone system or as slave to a host MCU. They feature ultra low power consumption since they are engineered for mobile devices, wearable electronics and IoT applications. They are also capable of functioning reliably in industrial environments, with temperatures ranging from -40<sup>0</sup>C to +125<sup>0</sup>C.
 
