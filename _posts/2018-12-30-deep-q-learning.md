@@ -7,7 +7,7 @@ excerpt: "Non-invasive monitoring system to recognize if a person is seated in a
 
 The repo for this project can be found at:
 
-1. [Briscola](https://github.com/danielRM88/deepQ)
+1. [DeepQ](https://github.com/danielRM88/deepQ)
 
 ## Table of Contents
 
