@@ -10,8 +10,7 @@ The repo for this project can be found at:
 1. [DeepQ](https://github.com/danielRM88/deepQ)
 
 ## Table of Contents
-
-1. Introduction
+- [Introduction](#introduction)
 
 
 ## Introduction
