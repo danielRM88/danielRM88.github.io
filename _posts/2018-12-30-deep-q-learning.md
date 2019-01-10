@@ -1,8 +1,8 @@
 ---
-title: "Implementation of Deep Q-Learning Algorithm to Build an AI that Learns How to Play Super Mario Bros."
+title: "Deep Q-Learning Algorithm that Learns How to Play Super Mario Bros."
 date: 2018-12-30
 tags: [artificial intelligence, reinforcement learning, q-learning, deep learning, convolutional neural networks, python, tensorflow, video games, super mario bros., ml engine, google cloud platform]
-excerpt: "Non-invasive monitoring system to recognize if a person is seated in a chair using Bluetooth Low Energy (BLE) technology."
+excerpt: "Implementation of Deep Q-Learning Algorithm to Build an AI that Learns How to Play Super Mario Bros."
 ---
 
 The repo for this project can be found at:
